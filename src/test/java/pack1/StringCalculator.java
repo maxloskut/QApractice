@@ -21,7 +21,7 @@ public class StringCalculator {
         //1st(String) – text; 2nd (int) - index of word. Function
         // should return number of chars in word by its index in text
 
-        System.out.println(stringCalculator(s1, 6));
+        System.out.println(stringCalculator(s1, 2));
 
 
     }
