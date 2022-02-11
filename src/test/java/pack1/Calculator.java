@@ -10,10 +10,10 @@ public class Calculator {
         int a = 4;
         int b = -2;
 
-        System.out.println(add(a,b));
-        System.out.println(substract(a,b));
-        System.out.println(divide(a,b));
-        System.out.println(multiply(a,b));
+        System.out.println("Sum is " + add(a,b));
+        System.out.println("Difference is " + substract(a,b));
+        System.out.println("Division is " + divide(a,b));
+        System.out.println("Multiplication is " + multiply(a,b));
     }
 
     private static int add(int a, int b) {
