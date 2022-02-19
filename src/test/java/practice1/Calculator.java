@@ -1,4 +1,6 @@
-package pack1;
+package practice1;
+
+import practice2.DivByZeroException;
 
 public class Calculator {
 
@@ -22,7 +24,12 @@ public class Calculator {
     private static int substract(int a, int b) {
         return a - b;
     }
-    private static int divide(int a, int b) {
+    public static int divide(int a, int b) {
+        if(b == 0) try {
+            throw new DivByZeroException("error");
+        } catch (DivByZeroException e) {
+            e.printStackTrace();
+        }
         return a / b;
     }
     private static int multiply(int a, int b) {

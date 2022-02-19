@@ -1,4 +1,4 @@
-package pack1;
+package practice1;
 
 public class StringCalculator {
 
