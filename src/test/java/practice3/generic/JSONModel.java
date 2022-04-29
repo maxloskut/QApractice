@@ -7,6 +7,7 @@ import org.json.JSONObject;
 import org.codehaus.jackson.map.ObjectMapper;
 import java.io.IOException;
 
+
 public abstract class JSONModel<T> {
 static ObjectMapper mapper;
 
