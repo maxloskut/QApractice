@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="all test SUITE" verbose="5" data-provider-thread-count="6">
+
+    <test thread-count="10" parallel="methods" name="data_provider TC">
+        <classes>
+            <class name="practice5.UnitTestCalc.CalcAddTest"/>
+        </classes>
+    </test>
+
+    <parameter name = "a"  value = "-34" />
+    <parameter name = "b"  value = "123" />
+    <test name="parametrized TC" thread-count="10" parallel="methods">
+        <classes>
+            <class name="practice5.UnitTestCalc.CalcMinusTest"/>
+        </classes>
+    </test>
+
+</suite>

@@ -18,10 +18,10 @@ public class Calculator {
         System.out.println("Multiplication is " + multiply(a,b));
     }
 
-    private static int add(int a, int b) {
+    public static int add(int a, int b) {
         return a + b;
     }
-    private static int substract(int a, int b) {
+    public static int substract(int a, int b) {
         return a - b;
     }
     public static int divide(int a, int b) {
