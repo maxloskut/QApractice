@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Instagram Test Suite">
+    <test name="Instagram Test">
+        <classes>
+            <class name="test.java.practice9.InstagramTest"></class>
+        </classes>
+    </test>
+</suite>

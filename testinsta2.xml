@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Instagram Test Suite">
+    <listeners>
+        <listener class-name="main.java.practice8.utils.SuiteListener"></listener>
+    </listeners>
+    <test name="Instagram Test">
+        <classes>
+            <class name="test.java.practice8.InstagramTest"></class>
+        </classes>
+    </test>
+</suite>
